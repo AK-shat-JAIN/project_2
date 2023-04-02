@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: lavenderblush;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    padding: 7px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #3B855B;
+    border: 1px white solid;
+    border-radius: 5px;
+    transition: 1s;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.navbar{
+    margin: 20px auto 20px 100px;
+}
+nav ul{
+    display: inline-flex;
+    align-items: center;
+    gap: 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .para{
+    margin: 30px 0;
+}
+section h1{
+    font-size: 50px;
+}
+section p{
+    font-size: 20px;
+}
+section .images{
+    width: 40%;
+}
+
+.uptwo{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
